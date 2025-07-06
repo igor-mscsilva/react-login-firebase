@@ -1,12 +1,43 @@
-# React + Vite
+🚀 Login App com React, Vite e Firebase
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bem-vindo ao Login App! Este é um projeto simples, mas robusto, que demonstra um sistema de autenticação de usuários utilizando React.js (com Vite para um desenvolvimento rápido) e Firebase Authentication.
 
-Currently, two official plugins are available:
+✨ Funcionalidades
+Login com Email e Senha: Autenticação tradicional de usuários verificando credenciais no Firebase.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Login com Google: Integração fácil e segura para autenticação via contas Google.
 
-## Expanding the ESLint configuration
+Mensagens de Feedback: Exibe mensagens claras para sucesso ou falha no login, guiando o usuário.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Tratamento de Erros: Lida com diversos cenários de erro da autenticação Firebase (usuário não encontrado, senha incorreta, etc.).
+
+Interface Responsiva: Design simples e funcional, adaptável a diferentes tamanhos de tela (embora o foco principal seja desktop para este exemplo).
+
+🛠️ Tecnologias Utilizadas
+React.js: Biblioteca JavaScript para construção de interfaces de usuário interativas.
+
+Vite: Ferramenta de build de nova geração para projetos web, otimizada para desenvolvimento rápido.
+
+Firebase Authentication: Serviço de autenticação do Google que oferece backend para login de usuários de forma segura e escalável.
+
+CSS: Estilização personalizada para a interface do login.
+
+⚙️ Como Rodar o Projeto Localmente
+Siga estes passos para configurar e executar o projeto em sua máquina:
+
+1. Pré-requisitos
+Certifique-se de ter instalado:
+
+Node.js (versão LTS recomendada)
+
+npm (gerenciador de pacotes do Node.js)
+
+Uma conta no Firebase e um projeto configurado com Firebase Authentication (Email/Senha e Google habilitados).
+
+Contato
+Desenvolvido por: Igor Silva/ igor-mscsilva
+
+[GitHub](https://github.com/igor-mscsilva)
+
+[LinkedIn](https://www.linkedin.com/in/igor-silva-7b9079207/)
+
