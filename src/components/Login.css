@@ -1,0 +1,92 @@
+/* src/components/Login.css */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f0f2f5;
+  font-family: Arial, sans-serif;
+}
+
+.login-form {
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+.login-form h2 {
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.input-group {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 8px;
+  color: #555;
+  font-weight: bold;
+}
+
+.input-group input {
+  width: calc(100% - 20px); /* Ajusta para padding */
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.btn-entrar {
+  background-color:rgb(0, 55, 255); /* Azul */
+  color: white;
+  padding: 12px 60px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px; /* Apenas para espaçamento, se precisar */
+}
+
+.btn-entrar:hover {
+  background-color:rgb(0, 3, 179); /* Azul mais escuro no hover */
+}
+
+
+/* Estilo para o botão "Entrar com Google" */
+.btn-google {
+  background-color: #db4437; /* Vermelho do Google */
+  color: white;
+  padding: 12px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px; /* Apenas para espaçamento, se precisar */
+}
+
+.btn-google:hover {
+  background-color:rgb(195, 86, 46); /* Vermelho mais escuro no hover */
+}
+
+
+
+
+
+.message {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #d9534f; /* Cor para mensagens de erro */
+  font-weight: bold;
+}
+
+/* Você pode adicionar uma classe para mensagens de sucesso se quiser */
+.message.success {
+    color: #5cb85c;
+}
